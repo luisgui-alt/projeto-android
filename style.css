@@ -20,6 +20,7 @@ header > h1 {
 header > p {
     color: white;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 nav {
