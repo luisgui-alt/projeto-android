@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Silkscreen:wght@400;700&display=swap');
+
+header {
+    background-image:linear-gradient(to bottom, #3BD17F, #1A5E38);
+    padding: 10px;
+    margin: -10px;
+    border: 0px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.329);
+}
+
+header > h1 {
+    margin: 0px;
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+
+header > p {
+    color: white;
+    padding-bottom: 10px;
+}
+
+nav {
+    text-align: left;
+}
+
+nav > a {
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    border-left: solid 1px rgba(255, 255, 255, 0.411);
+    border-right: solid 1px rgba(255, 228, 196, 0.411);
+    background-color: rgba(255, 255, 255, 0);
+    transition-duration: 0.5s;
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: #3BD17F;
+    background-color: rgb(46, 90, 44);
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #023f00;
+    background-color: rgba(3, 156, 3, 0.479);
+}
+
+a.externo::after {
+    content: '\1F517';
+}
+
+body {
+    background-color: #84E1AD;
+    font-family: "Chakra Petch", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+main > h1 { 
+    font-family: "Silkscreen", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.8em;
+    background-image: linear-gradient(to right, #84E1AD, white);
+    text-indent: 5px;
+}
+
+main > h2 {
+    font-family: "Silkscreen", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.6em;
+    background-image: linear-gradient(to right, #84E1AD, white);
+    text-indent: 5px;
+}
+
+div#bonus {
+    max-width: 900px;
+    min-width: 320px;
+    margin: auto;
+    background-color: rgba(2, 153, 2, 0.514);
+    border-radius: 6px;
+}
+
+div#bonus > ul {
+    columns: 2;
+    margin: 0px;
+    list-style-position: inside;
+    list-style-type: '\2713\00A0\00A0';
+}
+
+div#bonus > h3 {
+    font-family: "Silkscreen", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-indent: 5px;
+    background-color: rgb(6, 99, 6);
+    color: white;
+    margin-bottom: 3px;
+    border-radius: 6px 6px 0px 0px;
+}
+
+div#bonus > p {
+    padding: 15px 15px 10px 15px;
+    margin: 0px;
+}
+
+div.video {
+    background-color: #023f00;
+    margin: 10px -10px 10px -10px;
+    padding: 20px;
+    padding-bottom: 56%;
+    position: relative;
+}
+
+div.video > iframe {
+    position:absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+p {
+    text-indent: 20px;
+    font-size: 18px
+}
+
+main {
+    background-color: aliceblue;
+    margin: 50px auto auto auto;
+    padding: 10px;
+    text-align: justify;
+    max-width: 1000px;
+    min-width: 320px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
+    border-radius: 2%;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+footer {
+    background-color: #023f00;
+    color: white;
+    text-align: center;
+    font-weight: 50;
+    padding: 5px;
+    margin: 50px -8px -8px -8px;
+}
+
+footer > p {
+    margin: 0px;
+}
